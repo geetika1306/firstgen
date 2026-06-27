@@ -1,83 +1,85 @@
-FirstGen 🎓
-
-The AI Mentor Every First-Generation Student Deserves
+# FirstGen 🎓
+### The AI Mentor Every First-Generation Student Deserves
 
 FirstGen is an AI-powered career guidance platform built exclusively for first-generation college students. It acts as a personal mentor, career advisor, opportunity hunter, and document writer — all in one place, available 24/7, completely free.
 
+---
 
-🚀 Live Demo
+## 🚀 Live Demo
 
-firstgen.vercel.app
+[firstgen.vercel.app](https://firstgen.vercel.app)
 
+---
 
-🧠 The Problem
+## 🧠 The Problem
 
 Millions of first-generation college students in India have no access to mentors, career networks, or professional guidance. They don't know which internships to apply for, what certifications matter, or how to write a professional email. FirstGen closes that gap using AI.
 
+---
 
-✨ Features
+## ✨ Features
 
+- **Personalized Roadmap** — 5-question onboarding generates a custom career roadmap based on year, field, and goals
+- **Live Opportunity Discovery** — Real-time search for internships, hackathons, certifications, and fellowships using SerpAPI
+- **Document Drafting** — AI-generated cover letters, cold emails, resume summaries, and internship applications
+- **AI Chat Mentor** — Conversational AI that answers career questions with context-aware, personalized advice
 
-Personalized Roadmap — 5-question onboarding generates a custom career roadmap based on year, field, and goals
-Live Opportunity Discovery — Real-time search for internships, hackathons, certifications, and fellowships using SerpAPI
-Document Drafting — AI-generated cover letters, cold emails, resume summaries, and internship applications
-AI Chat Mentor — Conversational AI that answers career questions with context-aware, personalized advice
+---
 
+## 🛠 Tech Stack
 
+| Layer | Technology |
+|---|---|
+| Frontend | Next.js 14, TypeScript, Tailwind CSS |
+| AI Model | Groq API (LLaMA 3.3 70B) |
+| Search | SerpAPI (live Google search) |
+| Database | Supabase |
+| Deployment | Vercel |
 
-🛠 Tech Stack
+---
 
-LayerTechnologyFrontendNext.js 14, TypeScript, Tailwind CSSAI ModelGroq API (LLaMA 3.3 70B)SearchSerpAPI (live Google search)DatabaseSupabaseDeploymentVercel
+## 📦 Getting Started
 
+### Prerequisites
 
-📦 Getting Started
+- Node.js 18+
+- Groq API key — [console.groq.com](https://console.groq.com)
+- SerpAPI key — [serpapi.com](https://serpapi.com)
+- Supabase project — [supabase.com](https://supabase.com)
 
-Prerequisites
+### Installation
 
-
-Node.js 18+
-Groq API key — console.groq.com
-SerpAPI key — serpapi.com
-Supabase project — supabase.com
-
-
-Installation
-
-
-Clone the repository:
-
-
-bashgit clone https://github.com/yourusername/firstgen.git
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/firstgen.git
 cd firstgen
+```
 
+2. Install dependencies:
+```bash
+npm install
+```
 
-Install dependencies:
-
-
-bashnpm install
-
-
-Create a .env.local file in the root directory:
-
-
-envGROQ_API_KEY=your_groq_api_key_here
+3. Create a `.env.local` file in the root directory:
+```env
+GROQ_API_KEY=your_groq_api_key_here
 SERPAPI_API_KEY=your_serpapi_api_key_here
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
+4. Run the development server:
+```bash
+npm run dev
+```
 
-Run the development server:
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+---
 
-bashnpm run dev
+## 📁 Project Structure
 
-
-Open http://localhost:3000 in your browser.
-
-
-
-📁 Project Structure
-
+```
 firstgen/
 ├── app/
 │   ├── api/
@@ -93,56 +95,62 @@ firstgen/
 │   └── prompts.ts       # AI prompt templates
 ├── types/               # TypeScript type definitions
 └── ...
+```
 
+---
 
-🔑 Environment Variables
+## 🔑 Environment Variables
 
-VariableDescriptionGROQ_API_KEYGroq API key for LLM inferenceSERPAPI_API_KEYSerpAPI key for live web searchNEXT_PUBLIC_SUPABASE_URLSupabase project URLNEXT_PUBLIC_SUPABASE_ANON_KEYSupabase anonymous key
+| Variable | Description |
+|---|---|
+| `GROQ_API_KEY` | Groq API key for LLM inference |
+| `SERPAPI_API_KEY` | SerpAPI key for live web search |
+| `NEXT_PUBLIC_SUPABASE_URL` | Supabase project URL |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase anonymous key |
 
+---
 
-🚢 Deployment
+## 🚢 Deployment
 
-Deploy to Vercel
+### Deploy to Vercel
 
+1. Push your code to GitHub
+2. Go to [vercel.com](https://vercel.com) and import your repository
+3. Add all environment variables in **Settings → Environment Variables**
+4. Click **Deploy**
 
-Push your code to GitHub
-Go to vercel.com and import your repository
-Add all environment variables in Settings → Environment Variables
-Click Deploy
+---
 
+## 🗺 Roadmap
 
+- [ ] Resume builder with ATS optimization
+- [ ] Mock interview practice with AI feedback
+- [ ] Peer community for first-gen students
+- [ ] Vernacular language support (Hindi, Telugu, Tamil)
+- [ ] College-specific opportunity filtering
 
-🗺 Roadmap
+---
 
-
- Resume builder with ATS optimization
- Mock interview practice with AI feedback
- Peer community for first-gen students
- Vernacular language support (Hindi, Telugu, Tamil)
- College-specific opportunity filtering
-
-
-
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please open an issue first to discuss what you would like to change.
 
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+---
 
-
-
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
+---
 
-👤 Author
+## 👤 Author
 
 Built with ❤️ for first-generation students across India.
 
-Because the first generation should not have to figure it all out alone.
+*Because the first generation should not have to figure it all out alone.*
