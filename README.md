@@ -7,7 +7,7 @@ FirstGen is an AI-powered career guidance platform built exclusively for first-g
 
 ## 🚀 Live Demo
 
-[firstgen.vercel.app](https://firstgen.vercel.app)
+[[firstgen.vercel.app](https://firstgen.vercel.app)](https://firstgen-beryl.vercel.app/)
 
 ---
 
@@ -47,35 +47,7 @@ Millions of first-generation college students in India have no access to mentors
 - SerpAPI key — [serpapi.com](https://serpapi.com)
 - Supabase project — [supabase.com](https://supabase.com)
 
-### Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/firstgen.git
-cd firstgen
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Create a `.env.local` file in the root directory:
-```env
-GROQ_API_KEY=your_groq_api_key_here
-SERPAPI_API_KEY=your_serpapi_api_key_here
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
-4. Run the development server:
-```bash
-npm run dev
-```
-
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
 
 ## 📁 Project Structure
 
@@ -108,18 +80,6 @@ firstgen/
 | `NEXT_PUBLIC_SUPABASE_URL` | Supabase project URL |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase anonymous key |
 
----
-
-## 🚢 Deployment
-
-### Deploy to Vercel
-
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com) and import your repository
-3. Add all environment variables in **Settings → Environment Variables**
-4. Click **Deploy**
-
----
 
 ## 🗺 Roadmap
 
@@ -129,7 +89,6 @@ firstgen/
 - [ ] Vernacular language support (Hindi, Telugu, Tamil)
 - [ ] College-specific opportunity filtering
 
----
 
 ## 🤝 Contributing
 
@@ -141,13 +100,6 @@ Contributions are welcome! Please open an issue first to discuss what you would 
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
 
 ## 👤 Author
 
